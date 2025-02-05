@@ -5,7 +5,7 @@ const qrimg=document.getElementById("qrimg");
 
 function qrgenerator(){
     if(qrtext.value.length > 0){
-    qrimg.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+ qrtext.value;
+    qrimg.src="paste your api here"+ qrtext.value;
    imagebox.classList.add("showimage");
     }
     else{
